@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUDENTS SECTION</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body bgcolor="darkgrey">
+  <div class="container">
+    <img src="images/studentpage.jpeg" height="300" width="450" class="center-image1">
+    <button id="buttonstudentinfo">Print All Student's Info</button>
+
+    <div class="form-container">
+      <b>
+        <p><span id="studentinfo"></span></p>
+      </b>
+    </div>
+
+    <div class="form-container">
+      <h2>ENROLL A STUDENT</h2>
+      <div class="form-group">
+        <label for="enrollname">Name:</label>
+        <input type="text" id="enrollname" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <label for="grade">Grade:</label>
+        <input type="number" id="grade" placeholder="Enter grade">
+      </div>
+      <div class="form-group">
+        <label for="guardian">Guardian Name:</label>
+        <input type="text" id="guardian" placeholder="Enter guardian name">
+      </div>
+      <button id="buttonenrollstudent">ENROLL</button>
+      <p><span id="enrollstudent"></span></p>
+    </div>
+
+    <div class="form-container">
+      <h2>REMOVE A STUDENT</h2>
+      <div class="form-group">
+        <label for="removename">Name:</label>
+        <input type="text" id="removename" placeholder="Enter name">
+      </div>
+      <button id="buttonremovestudent">REMOVE</button>
+      <p><span id="removestudent"></span></p>
+    </div>
+
+    <div class="form-container">
+      <h2>FIND ACTIVE STUDENT</h2>
+      <div class="form-group">
+        <label for="activename">Name:</label>
+        <input type="text" id="activename" placeholder="Enter name">
+      </div>
+      <button id="buttonactivestudent">STATUS</button>
+      <p><span id="activestudent1"></span></p>
+      <p><span id="activestudent2"></span></p>
+    </div>
+  </div>
+  <script src="student.dart.js"></script>
+</body>
+
+</html>

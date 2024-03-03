@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEACHERS SECTION</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body bgcolor="lightblue">
+  <div class="container">
+    <img src="images/teacherpage.jpeg" height="300" width="450" class="center-image1">
+    <button id="buttonteacherinfo">Print All Teacher's Info</button>
+    <br><br>
+    <div class="form-container">
+      <b>
+        <p><span id="teachersinfo"></span></p>
+      </b>
+    </div>
+    <div class="form-container">
+      <h3>HIRE A TEACHER</h3>
+      <div class="form-group">
+        <label for="hirename">Name:</label>
+        <input type="text" id="hirename" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" placeholder="Enter subject">
+      </div>
+      <div class="form-group">
+        <label for="salary">Salary:</label>
+        <input type="number" id="salary" placeholder="Enter salary">
+      </div>
+      <button id="buttonhireteacher">HIRE</button>
+      <p><span id="hireteacher"></span></p>
+    </div>
+
+    <div class="form-container">
+      <h3>REMOVE A TEACHER</h3>
+      <div class="form-group">
+        <label for="firename">Name:</label>
+        <input type="text" id="firename" placeholder="Enter name">
+      </div>
+      <button id="buttonremoveteacher">REMOVE</button>
+      <p><span id="removeteacher"></span></p>
+    </div>
+
+    <div class="form-container">
+      <h3>FIND ACTIVE TEACHER</h3>
+      <div class="form-group">
+        <label for="activename">Name:</label>
+        <input type="text" id="activename" placeholder="Enter name">
+      </div>
+      <button id="buttonactiveteacher">STATUS</button>
+      <p><span id="activeteacher1"></span></p>
+      <p><span id="activeteacher2"></span></p>
+    </div>
+  </div>
+  <script src="teachers.dart.js"></script>
+</body>
+
+</html>
